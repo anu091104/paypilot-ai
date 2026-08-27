@@ -1,0 +1,42 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      # Uses SQLite by default (zero config). To use Postgres instead, uncomment
+      # the db service below and set:
+      # DATABASE_URL: postgresql://paypilot:paypilot@db:5432/paypilot
+      FRONTEND_ORIGIN: "*"
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+    volumes:
+      - backend_data:/app
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_URL: http://localhost:8000
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+
+  # Optional: swap SQLite for Postgres to mirror the original spec exactly.
+  # db:
+  #   image: postgres:16-alpine
+  #   environment:
+  #     POSTGRES_USER: paypilot
+  #     POSTGRES_PASSWORD: paypilot
+  #     POSTGRES_DB: paypilot
+  #   ports:
+  #     - "5432:5432"
+  #   volumes:
+  #     - pg_data:/var/lib/postgresql/data
+
+volumes:
+  backend_data:
+  # pg_data:

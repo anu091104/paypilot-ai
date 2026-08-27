@@ -1,0 +1,25 @@
+id,name,category,brand,price,rating,battery_life_hours,camera_score,weight_grams,features,stock
+1,Sony WH-CH520,headphones,Sony,4999,4.3,50,,220,"Bluetooth 5.2, lightweight, foldable",42
+2,Boat Rockerz 450,headphones,Boat,1799,4.1,15,,180,"Bluetooth 5.0, padded ear cushions",120
+3,JBL Tune 760NC,headphones,JBL,4499,4.4,35,,236,"Active noise cancellation, quick charge",65
+4,Sony XYZ Travel Pro,headphones,Sony,7799,4.2,50,,250,"ANC, travel case, quick charge, foldable",30
+5,Bose QuietComfort SE,headphones,Bose,6999,4.5,30,,240,"Best-in-class ANC, premium build",25
+6,boAt Airdopes 141,earbuds,Boat,1299,4.0,42,,45,"ENx tech, IPX4, 42h total playback",200
+7,Sony WF-C500,earbuds,Sony,4490,4.2,20,,42,"IPX4, compact, punchy bass",70
+8,Noise Buds VS104,earbuds,Noise,1199,3.9,32,,40,"ANC, low latency gaming mode",150
+9,OnePlus Nord Buds 2,earbuds,OnePlus,2199,4.1,38,,45,"12.4mm driver, fast charge",90
+10,JBL Wave Beam,earbuds,JBL,2499,4.3,32,,50,"JBL Deep Bass, IP54",80
+11,realme Buds Air 6,earbuds,realme,2799,4.0,40,,44,"ANC, 40h battery, low latency",60
+12,Redmi Buds 6,earbuds,Redmi,1499,3.8,28,,42,"AI ENC, dual device connect",110
+13,ASUS Vivobook 15,laptops,ASUS,52990,4.2,,,1700,"i5 12th gen, 16GB RAM, 512GB SSD",20
+14,HP Pavilion 15,laptops,HP,58990,4.1,,,1750,"Ryzen 7, 16GB RAM, 512GB SSD",18
+15,Lenovo IdeaPad Slim 5,laptops,Lenovo,64990,4.4,,,1600,"i5 13th gen, 16GB RAM, 512GB SSD, 2.8K OLED",15
+16,Acer Aspire 7,laptops,Acer,54990,4.0,,,2100,"Ryzen 5, RTX 2050, 16GB RAM",22
+17,MacBook Air M1,laptops,Apple,69990,4.7,,,1290,"M1 chip, 8GB RAM, 256GB SSD",10
+18,Samsung Galaxy M34,smartphones,Samsung,15999,4.2,,7.8,182,"5000mAh battery, 50MP camera, AMOLED",55
+19,Redmi Note 13 Pro,smartphones,Redmi,19999,4.3,,8.2,187,"200MP camera, AMOLED, 67W charging",70
+20,realme 12 Pro+,smartphones,realme,26999,4.1,,8.5,190,"Periscope telephoto, curved AMOLED",40
+21,iQOO Z9,smartphones,iQOO,18999,4.0,,7.5,186,"Snapdragon 7 Gen 3, 80W charging",45
+22,Nothing Phone 2a,smartphones,Nothing,23999,4.3,,7.9,190,"Glyph interface, Dimensity 7200 Pro",35
+23,Poco X6 Pro,smartphones,Poco,26999,4.2,,7.6,181,"Dimensity 8300 Ultra, 120Hz AMOLED",30
+24,Vivo V29e,smartphones,Vivo,24999,4.1,,8.6,186,"Best-in-class portrait camera, curved display",28

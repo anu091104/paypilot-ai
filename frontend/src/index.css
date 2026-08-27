@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #12100D;
+  background-image: radial-gradient(circle at 50% 0%, rgba(184, 137, 74, 0.08), transparent 45%);
+  min-height: 100vh;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* dotted ledger leader between a label and a value, like an itemized bill */
+.leader {
+  flex: 1 1 auto;
+  border-bottom: 1.5px dotted currentColor;
+  opacity: 0.35;
+  margin: 0 8px;
+  height: 1px;
+  align-self: end;
+  margin-bottom: 5px;
+}
+
+/* perforation holes punched along the top/bottom of the receipt */
+.perforation {
+  height: 10px;
+  background-image: radial-gradient(circle 5px, #12100D 5px, transparent 5.5px);
+  background-size: 20px 20px;
+  background-position: -4px center;
+  background-repeat: repeat-x;
+}
+
+::selection {
+  background: #B8894A;
+  color: #12100D;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
