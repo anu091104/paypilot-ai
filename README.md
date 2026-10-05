@@ -5,8 +5,8 @@ PayPilot is an agentic AI system that turns a natural-language shopping request 
 > "Wireless headphones under ₹8,000, mainly for travel, and I want maximum cashback"
 > → PayPilot parses intent → searches the catalog → pulls matching offers → calculates effective price → ranks candidates → explains its pick.
 
-**Live demo:** `<https://paypilot-ai-omega.vercel.app/>`
-**Demo video:** `<add your YouTube link here>`
+**Live demo:** https://paypilot-ai-omega.vercel.app/
+**Demo video:** https://www.youtube.com/watch?v=RKal_nstQ8w
 
 ---
 
